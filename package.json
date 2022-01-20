@@ -40,6 +40,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "start": "node dist/index.html",
     "test": "karma start test/karma.conf.js"
   }
 }
