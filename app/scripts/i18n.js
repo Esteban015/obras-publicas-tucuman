@@ -2,17 +2,17 @@ window._i18n = {
   loading: "Cargando",
 
   title: "Explorador de obras de SITE_NAME",
-  subtitle: "Esta es la página de prueba para visualizar las obras de SITE_NAME. Click para ver página.",
+  subtitle: "Esta es la página de prueba para visualizar las obras de SITE_NAME. Click en Inicio para ver página.",
 
-  homeTitle: "Observatorio de Obras",
-  homeButton: "Home",
+  homeTitle: "Obras de Tucuman",
+  homeButton: "Inicio",
   searchButton: "Buscador",
 
-  jurisdictionName: "Jurisdicción",
-  seeJurisdictionButton: "Ver jurisdicción",
-  worksWithoutJurisdictionTitle: "Obras sin jurisdicción",
+  jurisdictionName: "Entorno",
+  seeJurisdictionButton: "Ver entorno",
+  worksWithoutJurisdictionTitle: "Obras sin entorno",
 
-  homeIframeTitle: "Demo iframe: ",
+  homeIframeTitle: "Ventana Popup: ",
   closeButton: "Cerrar",
 
   noResults: "No hay resultados para los filtros aplicados",
@@ -23,7 +23,7 @@ window._i18n = {
   description: "Descripción",
   responsableArea: "Área Responsable",
   type: "Tipo",
-  commune: "Comuna",
+  commune: "Departamento",
   stage: "Etapa",
   moreInformation: "Más información",
   environment: "Entorno",

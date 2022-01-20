@@ -1,1 +1,20 @@
 /* Add custom css here */
+
+.row-selectores {
+    background-color: #AEEA00 !important;
+}
+
+.btn-primary, .btn-primary:focus{
+    background-color: white;
+    color: #1A237E;
+}
+
+.btn-primary:hover{
+    color: #685723 !important;
+    background-color: white;
+}
+
+.well{
+    background-color: #1A237E;
+    color: white;
+}

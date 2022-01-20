@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color:#AEEA00 !important;
   font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
 }
 
@@ -73,6 +73,7 @@ p {
 }
 
 #selector-home .selector {
+  padding: 0;
 }
 
 #selector-home .selector img {
@@ -81,7 +82,7 @@ p {
 }
 
 #selector-home .selector a {
-  border: 3px solid #ffffff;
+  border: 0px solid #ffffff;
   border-radius: 10px;
   display: block;
   cursor: pointer;
@@ -95,13 +96,15 @@ p {
   width: 100%;
   text-transform: uppercase;
   font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
-  color: black;
+  color: white;
   text-decoration: none;
   margin-bottom: 20px;
 }
 
 #selector-home .selectorSelected a {
-  border: 3px solid #ffbc00;
+  border: 0px solid #ffbc00;
+  background-color: #1A237E;
+  padding: 0.1em;
 }
 
 #selector-home .selectorSelected img {
@@ -124,8 +127,10 @@ p {
   float: left;
   width: 120px;
   text-align: center;
-  padding: 10px;
-  height: 110px;
+  padding: 8px;
+  height: 120px;
+  border: 2px solid #ffbc00;
+  border-radius: 0.5em;
 }
 
 #tipo-chart-container .tipo-group .tipo-container {
@@ -143,7 +148,7 @@ p {
 
 #tipo-chart-container .tipo-group .tipo-text {
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 #area-responsable-chart {
@@ -220,7 +225,8 @@ p {
 }
 
 .chart-item {
-  background-color: #efefef;
+  background-color: #1A237E;
+  color: white;
   padding: 30px 20px 10px 20px;
   margin-bottom: 10px;
 }
@@ -597,7 +603,7 @@ div.obra .ficha-tecnica .progress-bar {
 }
 
 .buttons-container-categories #verde {
-  background-color: #7fcd37;
+  background-color: #CDDC39;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -646,7 +652,7 @@ div.obra .ficha-tecnica .progress-bar {
 }
 
 .bg-verde {
-  background-color: #7fcd37;
+  background-color: #CDDC39;
 }
 
 .bg-integrada {
@@ -709,7 +715,7 @@ div.obra .ficha-tecnica .progress-bar {
     font-size: 15px;
   }
   #mobile-filler {
-    display: block;
+    display: none;
     height: 400px;
   }
 
@@ -842,11 +848,15 @@ p{
   max-width: 100%;
 }
 .open-big{
-      position: absolute;
+    position: absolute;
     top: 0;
     background: white;
     height: 100vh;
     overflow: scroll;
+    width: 100%;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
 }
 .right{
@@ -874,4 +884,8 @@ input{
   border-radius: 10px;
   padding-left: 10px;
   width: 100%;
+}
+
+.hidden-xs{
+  display: block !important;
 }

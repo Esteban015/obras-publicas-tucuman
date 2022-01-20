@@ -570,9 +570,9 @@ angular
       var comunas = [];
       var names = [];
       if ($scope.useComunas) {
-        comunas = d3.range(1, 16);
+        comunas = d3.range(1, 18);
         for (var i=0; i<comunas.length; i++) {
-          names[comunas[i]] = "Comuna " + comunas[i];
+          names[comunas[i]] = "Departamento " + comunas[i];
         }
       } else {
         for (var j=0; j<$scope.obras.length; j++) {
