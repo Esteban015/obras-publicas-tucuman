@@ -40,6 +40,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "node app/index.html"
+    "start": "node dist/index.html"
   }
 }
